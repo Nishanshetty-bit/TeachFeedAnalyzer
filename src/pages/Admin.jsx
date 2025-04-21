@@ -10,6 +10,7 @@ function Admin() {
 
   const handleSubmitform = (data) => {
     console.log(data);
+    reset();
   };
 
   return (
@@ -31,7 +32,7 @@ function Admin() {
             <div className="w-full flex items-center gap-5">
               <span className="text-lg font-medium text-gray-900">Faculty Name:</span>
               <input
-                {...register("name")}
+                {...register("name")} 
                 onChange={(e) => {
                   setName(e.currentTarget.value);
                 }}

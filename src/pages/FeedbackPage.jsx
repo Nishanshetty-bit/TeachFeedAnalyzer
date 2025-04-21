@@ -73,7 +73,7 @@ function FeedbackPage() {
                     ratings[activeQuestion] === value 
                       ? 'bg-indigo-600 text-white'
                       : 'bg-gray-100 text-gray-800 hover:bg-gray-200'
-                  }`}
+                  }`}  
                 >
                   {label}
                 </div>

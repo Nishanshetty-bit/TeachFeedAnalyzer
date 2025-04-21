@@ -10,8 +10,8 @@ export const teacherData = {
     "CSE": {
       "4": [
         { id: "t1", name: "Mr. Arjun U", img:[arjun_u] },
-        { id: "t2", name: "Mr. Manu A P", img:[pradeep_k] },
-        { id: "t3", name: "Mr. Pradeep K", img:[ prathibha_s] },
+        { id: "t2", name: "Mr. Pradeep K", img:[pradeep_k] },
+        { id: "t3", name: "Mr. Prathibha S", img:[ prathibha_s] },
         { id: "t4", name: "Mr. Raghavendra k", img:[raghavendra_k ] },
         { id: "t5", name: "Mr. Rajesh T H", img:rajesh_th },
       ],
